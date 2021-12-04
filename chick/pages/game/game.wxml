@@ -1,0 +1,88 @@
+<view style="position: relative;">
+  <view class="eggd" data-descript="鸡蛋">
+    <view class="char" data-descript="拾取">
+      <image mode="widthFix" src="/img/s.png" alt=""></image>
+    </view>
+    <view class="num" data-descript="待拾取数量">200</view>
+    <view class="tage" data-descript="下蛋进度">
+      <view class="tage_b">
+        <view class="tage_red" style="width:25%;"></view>
+        <view class="tage_z">100%</view>
+      </view>
+    </view>
+    <image mode="widthFix" data-descript="蛋" class="eggg" src="/img/jd.png" alt=""></image>
+  </view>
+  <view class="egg" data-descript="鸡模块">
+    <view class="egg_time" data-descript="进食时间提示">
+      <image mode="widthFix" data-descript="时钟" class="egg_ico" src="/img/mb.png" alt=""></image>
+      <view>消耗花费4:59:60</view>
+    </view>
+    <view class="eggyy" data-descript="栅栏">
+      <image mode="widthFix" src="/img/jipy.png" alt=""></image>
+    </view>
+    <view class="eggcd" data-descript="草">
+      <image mode="widthFix" class="eggg" src="/img/jip_z.png" alt=""></image>
+    </view>
+    <view data-descript="鸡">
+      <image mode="widthFix" class="eggg" src="/img/jip.png" alt=""></image>
+    </view>
+  </view>
+  <view class="bslt" data-descript="饲料容器">
+    <image mode="widthFix" src="/img/sl.png" alt=""></image>
+  </view>
+  <view class="brbut" data-descript="免费领取饲料">
+    <image style="height: 58px;width: 56px;" src="/img/b02.png" alt=""></image>
+  </view>
+  <view class="blbut" data-descript="加速器">
+    <image style="height: 53px;" src="/img/b01.png" alt=""></image>
+  </view>
+  <view class="l_nav" data-descript="用户数据,左上角">
+    <view class="tx">
+      <view class="tximg" data-descript="头像">
+        <image mode="widthFix" src="https://img0.baidu.com/it/u=2599945438,1328190228&fm=26&fmt=auto" alt=""></image>
+      </view>
+      <view class="txbox">
+        <view class="tx_name"></view>
+        <view class="tx_k">
+          <view class="tx_name" data-descript="名称">王富贵010</view>
+          <view class="tx_dj">
+            <dvi data-descript="等级">LV.1</dvi>
+            <view>
+              <view class="tx_jd" data-descript="升级进度">
+                <view style="width:50%"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="lgodl" data-descript="金币">
+      <image mode="widthFix" src="/img/r01.png" alt=""></image>
+      <view class="textgodl">Gold:0</view>
+    </view>
+    <view class="legg" data-descript="鸡蛋售卖">
+      <image mode="widthFix" src="/img/r02.png" alt=""></image>
+      <view class="legga" data-descript="当前拥有数量">1688</view>
+    </view>
+  </view>
+  <view class="r_but" data-descript="菜单栏,右上角">
+    <view data-descript="换装">
+      <image mode="widthFix" src="/img/l01.png" alt=""></image>
+    </view>
+    <view data-descript="商店">
+      <image mode="widthFix" src="/img/l02.png" alt=""></image>
+    </view>
+    <view data-descript="背包">
+      <image mode="widthFix" src="/img/l03.png" alt=""></image>
+    </view>
+    <view data-descript="勋章">
+      <image mode="widthFix" src="/img/l04.png" alt=""></image>
+    </view>
+  </view>
+  <view class="prid" data-descript="草地背景">
+    <image mode="widthFix" src="/img/cd.png" alt=""></image>
+  </view>
+  <view class="bg" data-descript="蓝天背景">
+    <image mode="widthFix" src="/img/bg.png" style="width: 100vw;height: 100vh;"></image>
+  </view>
+</view>
